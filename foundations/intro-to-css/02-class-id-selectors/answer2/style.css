@@ -1,0 +1,22 @@
+
+.num1 {
+    background-color: rgb(224, 89, 89);
+    font-size: 18px;
+
+}
+
+.cooler {
+    background-color: rgb(224, 89, 89);
+    font-size: 32px;
+}
+
+#num2 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+#num4 {
+    background-color: hsl(120, 100%, 75%);
+    font-weight: bold;
+}
