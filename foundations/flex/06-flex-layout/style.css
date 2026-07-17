@@ -5,6 +5,12 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+
 }
 
 img {
@@ -16,11 +22,86 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+
+  
+}
+
+
+/* header -------------------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.left-links{
+  display: flex;
+  gap: 20px;
+  padding-left: 40px;
+  
+}
+.right-links{
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+/* content -------------------------*/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 input {
-  border: 1px solid #ddd;
+  width: 100%;
+
+  padding: 8px ;
+  border: 1px solid rgb(186, 186, 186);
   border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
+}
+
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;       
+  max-width: 400px;  
+}
+
+/* Footer -------------------------*/
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  background-color:#dbdbdb;
+}
+
+
+/* All links -------------------------*/
+
+a {
+  text-decoration: none;
+  color: #797878;
+}
+
+
+/* stop buttons jump to the next line -------------------------*/
+.buttons {
+  display:flex;
+  gap: 8px;
+  min-width: 0;
+  flex-wrap: nowrap;
 }
