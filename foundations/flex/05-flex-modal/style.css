@@ -14,12 +14,60 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* ------------------------------------ */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  /* outline: 2px solid red; */
+  
+}
+.title {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+  box-sizing: border-box;
+
+  /* padding: 10px; */
+  
+}
+
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-right: 5px;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+} 
+
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display:flex;
 }
 
 .icon {
@@ -33,6 +81,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* margin: 15px; */
 }
 
 .close-button {
@@ -48,12 +98,17 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  
+  margin-right: 10px;
+  margin-bottom: 0px;
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  
+  margin-bottom: 12px;
 }
 
 button.continue {
